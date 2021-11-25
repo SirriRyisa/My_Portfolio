@@ -1,0 +1,57 @@
+body {
+   background-color: aliceblue;
+   position:static;
+   width: 700;
+   /* height: 122px; */
+}
+
+.nav ul{
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+  margin: auto 10px;
+  padding: auto;
+  color: blue;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.logo li {
+  list-style: none;
+  color: blue;
+}
+
+.main {
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 28px;
+  padding: 100px;
+  margin: 10px;
+}
+
+.section {
+  text-align: justify;
+  font-style: normal;
+  font-size: 20px;
+  margin: auto;
+  /* position:static; */
+  /* width: 920; */
+  /* height: 122px; */
+}
+
+.footer {
+  text-align: start;
+  color: blue;
+  font-size: 16px;
+}
+
+.img {
+   /* display: flex; */
+   text-align: start;
+}
+
+@media (max-width: 920px) {
+ } 
