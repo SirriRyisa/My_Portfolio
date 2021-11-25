@@ -2,6 +2,7 @@
 body {
   width: 375px;
 }
+
 .main {
   background-color: white;
   position: relative;
@@ -34,7 +35,7 @@ body {
   margin-left: 20px;
   margin-right: 20px;
   padding-top: 100px;
-  color: #172B4D;
+  color: #172B4d;
 }
 
 .section {
