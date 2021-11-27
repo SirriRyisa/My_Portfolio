@@ -12,6 +12,9 @@ body {
   background-image: url(header-shapes\ mobile.png);
   background-repeat: no-repeat;
   background-position: top;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -57,19 +60,25 @@ body {
   margin: 20px;
 }
 
-img {
-  margin: 10px;
-  margin-left: 20px;
-  margin-top: 0;
+.img {
+  text-align: start;
+  padding-left: 16px;
+  margin-top: 0; 
+  margin-right: 10px;
+  display: flex;
+}
+
+.img li {
+  list-style: none;
+  margin-right: 10px;
 }
 
 .footer {
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0;
   color: blue;
-  margin: 20px;
+  margin: 20px; 
 }
